@@ -31,7 +31,7 @@ import inlighnLogo from "./assets/tech_logo/inlighn_tech_logo.png";
 // Education Section Logo's
 import JSLogo from "./assets/education_logo/JS.png";
 import LancersLogo from "./assets/education_logo/Lancer.png";
-import BhajanpalLogo from "./assets/education_logo/Bhajanpal.png";
+import BhajanpalLogo from "./assets/education_logo/bhajanpal.png";
 
 // Project Section Logo'
 import imagesearchLogo from "./assets/work_logo/image_search.png";
