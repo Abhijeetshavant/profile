@@ -1,7 +1,7 @@
-import React from 'react';
-import ReactTypingEffect from 'react-typing-effect';
-import Tilt from 'react-parallax-tilt';
-import profileImage from '../../assets/profile2.png';
+import React from "react";
+import ReactTypingEffect from "react-typing-effect";
+import Tilt from "react-parallax-tilt";
+import profileImage from "../../assets/profile2.png";
 
 const About = () => {
   return (
@@ -18,17 +18,18 @@ const About = () => {
           </h1>
           {/* Name */}
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-4 leading-tight">
-            Zeeshan Lateef
+            Abhijeet Shavant
           </h2>
           {/* Skills Heading with Typing Effect */}
           <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4 text-[#8245ec] leading-tight">
             <span className="text-white">I am a </span>
             <ReactTypingEffect
               text={[
-                'Fullstack Developer',
-                'Web Developer',
-                'MERN Developer',
-                'Coder',
+                "Fullstack Developer",
+                "Web Developer",
+                "MERN Developer",
+                "Coder",
+                "Network Engineer",
               ]}
               speed={100}
               eraseSpeed={50}
@@ -41,22 +42,27 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            I am a passionate Web Developer with 1 year of hands-on experience in front-end development and a strong foundation in building responsive and user-friendly web applications. Having completed a comprehensive MERN stack course, I am actively seeking an opportunity in the IT software industry where I can apply my skills, contribute to real-world projects, and continue to grow as a full-stack developer.
+            I am a passionate Web Developer with 6 Moths of hands-on experience
+            in full-stack development and a strong foundation in building
+            responsive and user-friendly web applications. Having completed a
+            comprehensive MERN stack course, I am actively seeking an
+            opportunity in the IT software industry where I can apply my skills,
+            contribute to real-world projects, and continue to grow as a
+            full-stack developer.
           </p>
           {/* Resume Button */}
           <a
-            href="https://drive.google.com/file/d/1De5HDJuFWcC2LyeROE1OzETXqdiWULSM/view?usp=sharing"
+            href="https://drive.google.com/file/d/1jB9cGnUUOLMohOEUrrxVAgktJFzmZjSP/view?usp=drivesdk"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
             style={{
-              background: 'linear-gradient(90deg, #8245ec, #a855f7)',
-              boxShadow: '0 0 2px #8245ec, 0 0 2px #8245ec, 0 0 40px #8245ec',
+              background: "linear-gradient(90deg, #8245ec, #a855f7)",
+              boxShadow: "0 0 2px #8245ec, 0 0 2px #8245ec, 0 0 40px #8245ec",
             }}
           >
             DOWNLOAD CV
           </a>
-          
         </div>
         {/* Right Side */}
         <div className="md:w-1/2 flex justify-center md:justify-end">
@@ -71,7 +77,7 @@ const About = () => {
           >
             <img
               src={profileImage}
-              alt="Zeeshan Lateef"
+              alt="Abhijeeet Shavant"
               className="w-full h-full rounded-full object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]"
             />
           </Tilt>
