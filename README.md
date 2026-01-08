@@ -23,13 +23,6 @@ A sleek, responsive, and fully customizable **animated portfolio website** built
 
 ## 🧑‍💻 How to Use
 
-### 1. Clone the Repo
-
-```bash
-git clone [https://github.com/zeeshanlateef/myPortfolio.git]
-cd your-repo-name
-````
-
 ### 2. Install Dependencies
 
 ```bash
