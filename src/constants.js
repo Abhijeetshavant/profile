@@ -43,7 +43,7 @@ import MediaLogo from "./assets/work_logo/Media.png";
 import RealTimeLogo from "./assets/work_logo/realTimeTracker.png";
 import NotesLogo from "./assets/work_logo/NotesPractice.png";
 import toDOLogo from "./assets/work_logo/toDoList.png";
-import zematoLogo from "./assets/work_logo/zemato.png";
+import zematoLogo from "./assets/work_logo/Zemato.png";
 import portfolioLogo from "./assets/work_logo/Portfolio.png";
 import csprepLogo from "./assets/work_logo/cs_prep.png";
 export const SkillsInfo = [
